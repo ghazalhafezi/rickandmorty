@@ -1,0 +1,41 @@
+.footer {
+    background-color: #202329;
+    color: rgb(158, 158, 158);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.statistics {
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    span {
+        margin: 0 10px;
+    }
+}
+
+.status {
+    span {
+        font-size: 13px;
+    }
+    .active {
+        width: 10px;
+        height: 10px;
+        background-color: green;
+        border-radius: 100px;
+    }
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    .item {
+        margin: 0 5px;
+        svg {
+            fill: #fff !important;
+        }
+    }
+}

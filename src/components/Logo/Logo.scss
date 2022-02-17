@@ -1,0 +1,20 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    font-size: 100px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    .svg-section {
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        svg {
+            fill: whitesmoke;
+            width: 60%;
+        }
+    }
+}
